@@ -1,0 +1,64 @@
+body {
+    padding-top: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0)
+}
+
+.row-1, .row-2 {
+    width: 73%;
+    margin: auto;
+}
+
+.col {
+    display: inline-block;
+}
+
+img {
+    width: 150px;
+    margin: 15px 15px;
+}
+
+h3 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.blur-img {
+    filter: blur(1px);
+}
+
+.brightness-img {
+    filter: brightness(1.5)
+}
+
+.contrast-img {
+    filter: contrast(200%)
+}
+
+.drop-shadow-img {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.grayscale-img {
+    filter: grayscale(70%)
+}
+
+.hue-rotate-img {
+    filter: hue-rotate(-45deg)
+}
+
+.invert-img {
+    filter: invert(100%);
+}
+
+.opacity-img {
+    filter: opacity(50%);
+}
+
+.saturate-img {
+    filter: saturate(200%);
+}
+
+.sepia-img {
+    filter: sepia(80%)
+}

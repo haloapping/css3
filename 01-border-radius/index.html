@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <style>
+        .container {
+            margin-top: 130px;
+            margin-bottom: 130px;
+        }
+        
+        .square1 {
+            height: 300px;
+            width: 300px;
+            background-color: rgb(255, 221, 0);
+            margin: auto;
+            border-radius: 30px;
+            text-align: center;
+            line-height: 300px;
+            font-size: 100px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .square2 {
+            position: relative;
+            top: 50px;
+            height: 300px;
+            width: 300px;
+            background-color: rgb(0, 255, 68);
+            margin: auto;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            text-align: center;
+            line-height: 300px;
+            font-size: 100px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="square1">Hi</div>
+
+        <div class="square2">Hola</div>
+    </div>
+</body>
+</html>

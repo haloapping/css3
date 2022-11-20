@@ -1,0 +1,53 @@
+.container {
+    margin: 70px auto;
+}
+.gallery ul {
+    margin: 70px auto;
+    width: 55%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gallery ul li {
+    list-style-type: none;
+    opacity: 0.4;
+    transition: 300ms linear;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+.gallery ul li:hover {
+    opacity: 1;
+}
+
+.gallery img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -999;
+}
+
+.gallery span {
+    display: block;
+    width: 120px;
+    text-align: center;
+    line-height: 120px;
+    color: black;
+    opacity: 0;
+    font-weight: bold;
+}
+
+.gallery span:hover {
+    opacity: 1;
+    transition: 300ms linear;
+}
+
+.gallery ul li a {
+    text-decoration: none;
+}
+

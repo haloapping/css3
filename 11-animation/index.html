@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .square {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 200px auto;
+            text-align: center;
+            line-height: 100px;
+            border-radius: 10px;
+            box-shadow: 1px 1px rgb(155, 155, 155);
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 193, 111);
+            animation: bounce 2s linear alternate infinite;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(5px) scale(1.5) rotate(360deg);
+            }
+
+            100% {
+                transform: translateY(-5px) scale(1) ;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="square">Halo-halo</div>
+</body>
+</html>
